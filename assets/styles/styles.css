@@ -123,3 +123,37 @@ body {
     transform: translateY(-6px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
+
+@media (hover: hover) {
+    .feature:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+
+    body {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+
+    .feature {
+        width: 100%;
+        max-width: 340px;
+        height: 170px !important;
+    }
+
+    .btn-primary {
+        top: 0;
+    }
+}
