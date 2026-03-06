@@ -1,2 +1,2 @@
-# Website
-Website For WordleAI
+# WordleAI's Website
+A work in progress website for WordleAI
