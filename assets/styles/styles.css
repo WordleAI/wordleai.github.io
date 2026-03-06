@@ -15,12 +15,15 @@ body {
 /* NAV */
 
 .nav {
-    background: #0f0f0f24;
+    /* background: #0f0f0f24; */
     color: black;
+
     padding: 20px 40px;
-    border-radius: 20px;
     margin: 10px;
-    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     user-select: none !important;
     -webkit-user-drag: none !important;
     cursor: grab;
@@ -28,13 +31,21 @@ body {
 
 .nav-logo {
     margin: 0;
+    font-size: 28px;
+}
+
+.nav-vstack {
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-content {
-    display: flex;
-    gap: 20px;
-    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+    left: 3px;
+    position: relative;
 }
+
 
 .nav-content-item {
     color: rgb(41, 41, 41);
